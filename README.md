@@ -16,7 +16,7 @@
 
 ### 使用可执行文件（Windows）
 
-1. 直接运行`dist`目录下的`renpy_translator.exe`可执行文件
+1. 直接运行`renpy_translator.exe`可执行文件
 2. 首次运行可能需要通过Windows安全软件检查
 
 ### 使用Python源代码运行
@@ -55,8 +55,6 @@ python renpy_translator.py
 
 - **backup/**：存储导入文件的原始备份(.rpy.bak)
 - **cache/**：存储自动保存的翻译进度文件(.rpy.autosave)
-- **dist/**：包含打包好的可执行文件
-- **build/**：PyInstaller打包过程中生成的临时文件
 
 ## 注意事项
 
